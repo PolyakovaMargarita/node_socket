@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Chat on socket.io</title>
+    <link rel="stylesheet" href="./main.css"/>
 </head>
 <body>
+    <header>
+        <ul class="messages">
+        </ul>
 
+        <form class="form">
+            <div class="name"></div>
+            <input type="text" class="input" autocomplete="off">
+            <button class="btn">Send</button>
+        </form>
+    </header>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
